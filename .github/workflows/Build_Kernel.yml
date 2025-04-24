@@ -53,9 +53,9 @@ on:
           - 'disable'
       kernel_version:
         description: 'Customizing the kernel version number (自定义内核版本号)'
-        required: false
+        required: true
         type: string
-        default: ''
+        default: '4.19.157-perf-g35fcd5da188a'
       build_type:
         description: 'Kernel Build Type (内核构建类型)'
         required: true
